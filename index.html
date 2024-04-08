@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Nash Equilibrium</title>
+    </head>
+    <body>
+        <div id="nash-table-wrapper">
+            <table id="nash-table">
+                <tr>
+                    <th width="100px">-</th>
+                    <th><input type="text" class="column-strat" value="a"</th>
+                    <th><input type="text" class="column-strat" value="b"</th>
+                </tr>
+                <tr>
+                    <th><input type="text" class="row-strat" value="A"</th>
+                    <td><input type="number" class="payoff" value="5"><input type="number" class="payoff" value="5"></td>
+                    <td><input type="number" class="payoff" value="5"><input type="number" class="payoff" value="5"></td>
+                </tr>
+                <tr>
+                    <th><input type="text" class="row-strat" value="B"</th>
+                    <td><input type="number" class="payoff" value="2"><input type="number" class="payoff" value="2"></td>
+                    <td><input type="number" class="payoff" value="1"><input type="number" class="payoff" value="2"></td>
+                </tr>
+            </table>
+            <button id="submit-button" onclick="Submit()">Submit</button>
+            <div id="equilibrium-wrapper"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</HTML>

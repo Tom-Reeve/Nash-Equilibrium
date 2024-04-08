@@ -1,0 +1,24 @@
+table, tr, th {
+    border: 1px solid black;
+}
+input {
+    text-align: center;
+}
+.column-strat, .row-strat {
+    font-weight: bold;
+    color: red;
+    width: 100px;
+}
+.payoff {
+    width: 50px;
+}
+#submit-button {
+    margin-top: 8px;
+}
+#equilibrium-wrapper {
+    width: 200px;
+    height: 100px;
+
+    outline: 1px solid;
+    margin-top: 8px;
+}
